@@ -47,6 +47,7 @@ export default function Home() {
   };
 
   const filteredResults = useMemo(() => {
+    console.log("hi");
     if (!searchPerformed || !results) return [];
 
     return results.filter((item) => {
