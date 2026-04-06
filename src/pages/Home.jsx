@@ -39,7 +39,6 @@ export default function Home() {
   };
 
   const handleRetailerChange = (retailer) => {
-    console.log("retailer", retailer);
     setSelectedRetailers((prev) =>
       prev.includes(retailer)
         ? prev.filter((r) => r !== retailer)
